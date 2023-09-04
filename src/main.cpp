@@ -8,9 +8,9 @@ using namespace std;
 //Print information on course
 int main()
 {
-    cout <<"Course Title: C867 - Scripting and Programming - Applications" << endl;
+    cout <<"Title: Scripting and Programming" << endl;
     cout <<"Programming Language: C++" << endl;
-    cout <<"Student ID: 010940298" << endl;
+    cout <<"Student ID: null" << endl;
     cout <<"Student Name: Daniel Ngo" << endl;
     cout << "    " << endl;
     cout << "    " << endl;
@@ -20,7 +20,7 @@ int main()
         "A2,Suzan,Erickson,Erickson_1990@gmailcom,19,50,30,40,NETWORK",
         "A3,Jack,Napoli,The_lawyer99yahoo.com,19,20,40,33,SOFTWARE",
         "A4,Erin,Black,Erin.black@comcast.net,22,50,58,40,SECURITY",
-        "A5,Daniel,Ngo,Dngo21@wgu.edu,25,10,18,7,SOFTWARE"
+        "A5,Daniel,Ngo,null@null.com,25,10,18,7,SOFTWARE"
     };
 
     Roster * classRoster = new Roster(5);
